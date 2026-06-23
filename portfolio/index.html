@@ -6,10 +6,21 @@
     <meta name="description" content="Nelson Wilson — Desenvolvedor de Sistemas e Websites em Maputo, Moçambique. Sistemas desktop, web, gestão empresarial e landing pages profissionais.">
     <meta name="keywords" content="desenvolvedor, sistemas, websites, Java, JavaScript, Maputo, Moçambique, portfólio">
     <meta name="author" content="Nelson Wilson">
+    <meta name="theme-color" content="#0F172A">
+    <link rel="canonical" href="https://nelson-wilson.github.io/">
     <meta property="og:title" content="Nelson Wilson — Desenvolvedor de Sistemas & Websites">
     <meta property="og:description" content="Desenvolvo sistemas personalizados, websites profissionais e soluções digitais para empresas e empreendedores.">
     <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nelson-wilson.github.io/">
+    <meta property="og:image" content="https://nelson-wilson.github.io/assets/logo.png">
+    <meta property="og:locale" content="pt_PT">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Nelson Wilson — Desenvolvedor de Sistemas & Websites">
+    <meta name="twitter:description" content="Desenvolvo sistemas personalizados, websites profissionais e soluções digitais para empresas e empreendedores.">
+    <meta name="twitter:image" content="https://nelson-wilson.github.io/assets/logo.png">
     <title>Nelson Wilson — Desenvolvedor de Sistemas & Websites</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -17,10 +28,42 @@
 </head>
 <body>
 
+    <!-- FUNDO TECNOLÓGICO GLOBAL -->
+    <div class="tech-bg" aria-hidden="true">
+        <svg class="tech-bg-nodes" preserveAspectRatio="none" viewBox="0 0 1000 1000">
+            <line x1="80" y1="120" x2="280" y2="240"></line>
+            <line x1="280" y1="240" x2="200" y2="420"></line>
+            <line x1="780" y1="90" x2="900" y2="260"></line>
+            <line x1="900" y1="260" x2="760" y2="380"></line>
+            <line x1="150" y1="700" x2="350" y2="640"></line>
+            <line x1="350" y1="640" x2="420" y2="820"></line>
+            <line x1="650" y1="760" x2="850" y2="700"></line>
+            <line x1="850" y1="700" x2="780" y2="900"></line>
+            <line x1="500" y1="100" x2="500" y2="280"></line>
+            <line x1="500" y1="280" x2="620" y2="340"></line>
+
+            <circle cx="80" cy="120" r="2.5"></circle>
+            <circle cx="280" cy="240" r="2.5"></circle>
+            <circle cx="200" cy="420" r="2.5"></circle>
+            <circle cx="780" cy="90" r="2.5"></circle>
+            <circle cx="900" cy="260" r="2.5"></circle>
+            <circle cx="760" cy="380" r="2.5"></circle>
+            <circle cx="150" cy="700" r="2.5"></circle>
+            <circle cx="350" cy="640" r="2.5"></circle>
+            <circle cx="420" cy="820" r="2.5"></circle>
+            <circle cx="650" cy="760" r="2.5"></circle>
+            <circle cx="850" cy="700" r="2.5"></circle>
+            <circle cx="780" cy="900" r="2.5"></circle>
+            <circle cx="500" cy="100" r="2.5"></circle>
+            <circle cx="500" cy="280" r="2.5"></circle>
+            <circle cx="620" cy="340" r="2.5"></circle>
+        </svg>
+    </div>
+
     <!-- NAVBAR -->
     <nav class="navbar" id="navbar">
         <div class="container nav-container">
-            <a href="#home" class="logo">NW<span class="logo-dot">.</span></a>
+            <a href="#home" class="logo logo--img"><img src="assets/logo.png" alt="Nelson Wilson"></a>
             <ul class="nav-links" id="navLinks">
                 <li><a href="#home" class="nav-link">Início</a></li>
                 <li><a href="#about" class="nav-link">Sobre</a></li>
@@ -46,37 +89,38 @@
                     Disponível para novos projetos
                 </div>
                 <h1 class="hero-title">
-                    Transformo Ideias em<br>
-                    <span class="gold-text">Sistemas</span> e <span class="gold-text">Websites</span><br>
-                    Profissionais
+                    Desenvolvedor de<br>
+                    <span class="accent-text">Sistemas</span> e <span class="accent-text">Websites</span>
                 </h1>
                 <p class="hero-desc">
-                    Desenvolvo soluções digitais modernas, rápidas e personalizadas para empresas, negócios e empreendedores.
+                    Crio sistemas, websites e soluções digitais modernas para empresas e empreendedores.
                 </p>
                 <div class="hero-stats">
                     <div class="hero-stat">
-                        <span class="stat-n">+10</span>
-                        <span class="stat-l">Projetos</span>
+                        <span class="stat-n" data-count="10" data-suffix="+">0</span>
+                        <span class="stat-l">Projetos Desenvolvidos</span>
                     </div>
                     <div class="stat-divider"></div>
                     <div class="hero-stat">
-                        <span class="stat-n">100%</span>
-                        <span class="stat-l">Responsivo</span>
+                        <span class="stat-n" data-count="5" data-suffix="+">0</span>
+                        <span class="stat-l">Tecnologias Dominadas</span>
                     </div>
                     <div class="stat-divider"></div>
                     <div class="hero-stat">
-                        <span class="stat-n">∞</span>
-                        <span class="stat-l">Suporte</span>
+                        <span class="stat-n" data-count="100" data-suffix="%">0</span>
+                        <span class="stat-l">Suporte Pós-Entrega</span>
                     </div>
                 </div>
                 <div class="hero-actions">
-                    <a href="#projects" class="btn-gold">Ver Projetos <i class="fas fa-arrow-right"></i></a>
-                    <a href="https://wa.me/258866473065?text=Olá%20Nelson,%20gostaria%20de%20um%20orçamento!" target="_blank" class="btn-outline">Solicitar Orçamento</a>
+                    <a href="#projects" class="btn-primary">Ver Projetos <i class="fas fa-arrow-right"></i></a>
+                    <a href="https://wa.me/258866473065?text=Olá%20Nelson,%20gostaria%20de%20um%20orçamento!" target="_blank" class="btn-outline">Contactar Agora</a>
+                    <a href="assets/CV-Nelson-Wilson.pdf" download class="btn-ghost"><i class="fas fa-download"></i> Baixar CV</a>
                 </div>
                 <div class="hero-socials">
                     <a href="https://github.com/Nelson-Wilson" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/nelson-wilson" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     <a href="https://wa.me/258866473065" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                    <a href="mailto:nelsondzimba07@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="mailto:nelsondzimba08@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
             <div class="hero-photo" data-aos="fade-left">
@@ -110,6 +154,20 @@
                         <div class="info-item"><i class="fas fa-map-marker-alt"></i> Maputo, Moçambique</div>
                         <div class="info-item"><i class="fas fa-graduation-cap"></i> Informática — 3º Ano</div>
                         <div class="info-item"><i class="fas fa-check-circle"></i> Disponível para freelance</div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <span class="about-stat-n" data-count="10" data-suffix="+">0</span>
+                            <span class="about-stat-l">Projetos</span>
+                        </div>
+                        <div class="about-stat">
+                            <span class="about-stat-n" data-count="5" data-suffix="+">0</span>
+                            <span class="about-stat-l">Tecnologias</span>
+                        </div>
+                        <div class="about-stat">
+                            <span class="about-stat-n" data-count="3" data-suffix="">0</span>
+                            <span class="about-stat-l">Anos a programar</span>
+                        </div>
                     </div>
                 </div>
                 <div class="about-values" data-aos="fade-left">
@@ -158,41 +216,49 @@
                     <div class="service-icon"><i class="fas fa-desktop"></i></div>
                     <h3>Sistemas Desktop</h3>
                     <p>Aplicações robustas para uso local, com interfaces intuitivas e alta performance.</p>
+                    <div class="service-benefit"><i class="fas fa-check"></i> Mais controlo, sem depender da internet</div>
                 </div>
                 <div class="service-card" data-aos="fade-up" data-aos-delay="80">
                     <div class="service-icon"><i class="fas fa-chart-line"></i></div>
                     <h3>Sistemas de Gestão</h3>
                     <p>Soluções completas para gestão de clientes, estoque, colaboradores e operações.</p>
+                    <div class="service-benefit"><i class="fas fa-check"></i> Operações organizadas em um só lugar</div>
                 </div>
                 <div class="service-card" data-aos="fade-up" data-aos-delay="160">
                     <div class="service-icon"><i class="fas fa-coins"></i></div>
                     <h3>Sistemas Financeiros</h3>
                     <p>Controlo de despesas, receitas, relatórios e dashboards financeiros detalhados.</p>
+                    <div class="service-benefit"><i class="fas fa-check"></i> Decisões com base em dados reais</div>
                 </div>
                 <div class="service-card" data-aos="fade-up" data-aos-delay="240">
                     <div class="service-icon"><i class="fas fa-globe"></i></div>
                     <h3>Websites Profissionais</h3>
                     <p>Sites modernos, rápidos e optimizados para converter visitantes em clientes.</p>
+                    <div class="service-benefit"><i class="fas fa-check"></i> Mais credibilidade e mais clientes</div>
                 </div>
                 <div class="service-card" data-aos="fade-up" data-aos-delay="320">
                     <div class="service-icon"><i class="fas fa-bullseye"></i></div>
                     <h3>Landing Pages</h3>
                     <p>Páginas de alta conversão para campanhas, produtos e serviços.</p>
+                    <div class="service-benefit"><i class="fas fa-check"></i> Maior taxa de conversão</div>
                 </div>
                 <div class="service-card" data-aos="fade-up" data-aos-delay="400">
                     <div class="service-icon"><i class="fas fa-shopping-cart"></i></div>
                     <h3>Lojas Online</h3>
                     <p>E-commerce completo com catálogo, carrinho e gestão de pedidos.</p>
+                    <div class="service-benefit"><i class="fas fa-check"></i> Vender 24 horas por dia</div>
                 </div>
                 <div class="service-card" data-aos="fade-up" data-aos-delay="480">
                     <div class="service-icon"><i class="fas fa-robot"></i></div>
                     <h3>Automação</h3>
                     <p>Automatização de processos repetitivos para poupar tempo e reduzir erros.</p>
+                    <div class="service-benefit"><i class="fas fa-check"></i> Menos tempo perdido, menos erros</div>
                 </div>
                 <div class="service-card" data-aos="fade-up" data-aos-delay="560">
                     <div class="service-icon"><i class="fas fa-tools"></i></div>
                     <h3>Manutenção</h3>
                     <p>Actualização, correcção e evolução de sistemas já existentes.</p>
+                    <div class="service-benefit"><i class="fas fa-check"></i> O seu sistema sempre atualizado</div>
                 </div>
             </div>
         </div>
@@ -205,46 +271,56 @@
                 <span class="section-tag">Tecnologias</span>
                 <h2 class="section-title">Stack técnico</h2>
             </div>
-            <div class="skills-categories">
-                <div class="skill-category" data-aos="fade-up" data-aos-delay="0">
-                    <h3 class="cat-title"><i class="fas fa-paint-brush"></i> Frontend</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag"><i class="fab fa-html5"></i> HTML5</span>
-                        <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS3</span>
-                        <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
-                    </div>
+            <div class="tech-grid">
+                <div class="tech-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="tech-icon"><i class="fab fa-html5"></i></div>
+                    <h4>HTML5</h4>
+                    <p>Estrutura semântica e acessível para a web</p>
                 </div>
-                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
-                    <h3 class="cat-title"><i class="fas fa-server"></i> Backend</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag"><i class="fab fa-node-js"></i> Node.js</span>
-                        <span class="skill-tag"><i class="fab fa-php"></i> PHP</span>
-                    </div>
+                <div class="tech-card" data-aos="fade-up" data-aos-delay="60">
+                    <div class="tech-icon"><i class="fab fa-css3-alt"></i></div>
+                    <h4>CSS3</h4>
+                    <p>Layouts responsivos e interfaces modernas</p>
                 </div>
-                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
-                    <h3 class="cat-title"><i class="fas fa-window-maximize"></i> Desktop</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag"><i class="fab fa-java"></i> Java</span>
-                        <span class="skill-tag"><i class="fas fa-layer-group"></i> Java Swing</span>
-                    </div>
+                <div class="tech-card" data-aos="fade-up" data-aos-delay="120">
+                    <div class="tech-icon"><i class="fab fa-js"></i></div>
+                    <h4>JavaScript</h4>
+                    <p>Interatividade e lógica no lado do cliente</p>
                 </div>
-                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
-                    <h3 class="cat-title"><i class="fas fa-database"></i> Base de Dados</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag"><i class="fas fa-database"></i> MySQL</span>
-                        <span class="skill-tag"><i class="fas fa-hdd"></i> SQLite</span>
-                    </div>
+                <div class="tech-card" data-aos="fade-up" data-aos-delay="180">
+                    <div class="tech-icon"><i class="fab fa-php"></i></div>
+                    <h4>PHP</h4>
+                    <p>Backends dinâmicos e sistemas web com MySQL</p>
                 </div>
-                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
-                    <h3 class="cat-title"><i class="fas fa-tools"></i> Ferramentas</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag"><i class="fab fa-git-alt"></i> Git</span>
-                        <span class="skill-tag"><i class="fab fa-github"></i> GitHub</span>
-                    </div>
+                <div class="tech-card" data-aos="fade-up" data-aos-delay="240">
+                    <div class="tech-icon"><i class="fab fa-java"></i></div>
+                    <h4>Java</h4>
+                    <p>Sistemas desktop robustos com Swing</p>
+                </div>
+                <div class="tech-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="tech-icon"><i class="fab fa-node-js"></i></div>
+                    <h4>Node.js</h4>
+                    <p>Backends e APIs rápidas e escaláveis</p>
+                </div>
+                <div class="tech-card" data-aos="fade-up" data-aos-delay="360">
+                    <div class="tech-icon"><i class="fas fa-database"></i></div>
+                    <h4>MySQL</h4>
+                    <p>Modelação e gestão de bases de dados</p>
+                </div>
+                <div class="tech-card" data-aos="fade-up" data-aos-delay="420">
+                    <div class="tech-icon"><i class="fab fa-git-alt"></i></div>
+                    <h4>Git</h4>
+                    <p>Controlo de versões e colaboração em código</p>
+                </div>
+                <div class="tech-card" data-aos="fade-up" data-aos-delay="480">
+                    <div class="tech-icon"><i class="fab fa-github"></i></div>
+                    <h4>GitHub</h4>
+                    <p>Hospedagem de projetos e portfólio público</p>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- PROJETOS -->
     <section id="projects" class="section section-alt">
@@ -252,84 +328,241 @@
             <div class="section-header" data-aos="fade-up">
                 <span class="section-tag">Portfólio</span>
                 <h2 class="section-title">Projetos desenvolvidos</h2>
+                <p class="section-desc">Galeria com conteúdo ilustrativo enquanto reúno screenshots reais dos projetos mais recentes.</p>
             </div>
-            <div class="projects-grid">
 
-                <div class="project-card" data-aos="fade-up" data-aos-delay="0">
-                    <div class="project-top">
-                        <div class="project-icon"><i class="fas fa-chart-pie"></i></div>
-                        <a href="https://github.com/Nelson-Wilson" target="_blank" class="project-gh" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <div class="filter-bar" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="desktop">Desktop</button>
+                <button class="filter-btn" data-filter="academico">Académico</button>
+                <button class="filter-btn" data-filter="comercial">Comercial</button>
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="0" data-category="desktop">
+                    <div class="project-thumb"
+                        data-title="Gestão de Equipamentos Informáticos"
+                        data-category-label="Desktop"
+                        data-desc="Sistema desktop multi-perfil (Administrador, Gestor e Vendedor) para gestão de uma loja de equipamentos informáticos: clientes, vendedores, vendas, reservas e relatórios."
+                        data-icon="fas fa-desktop"
+                        data-tags="Java,Swing,POO"
+                        data-features="Perfis de acesso (Admin / Gestor / Vendedor),Gestão de clientes e vendedores,Registo de vendas e reservas,Relatórios de vendas"
+                        data-link="https://github.com/Nelson-Wilson/Gest%C3%A3o-Equipamentos-inform%C3%A1ticos">
+                        <span class="project-category-tag">Desktop</span>
+                        <i class="fas fa-desktop"></i>
+                        <div class="thumb-overlay"><span><i class="fas fa-eye"></i> Ver Projeto</span></div>
                     </div>
-                    <h3>Sistema de Gestão Financeira</h3>
-                    <p>Sistema desktop para controlo financeiro, despesas, relatórios detalhados e gestão de saldo empresarial.</p>
-                    <div class="project-tags">
-                        <span>Java</span><span>Swing</span><span>JFreeChart</span>
+                    <div class="project-body">
+                        <div class="project-top">
+                            <a href="https://github.com/Nelson-Wilson/Gest%C3%A3o-Equipamentos-inform%C3%A1ticos" target="_blank" class="project-gh" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                        <h3>Gestão de Equipamentos Informáticos</h3>
+                        <p>Sistema desktop multi-perfil para gestão de uma loja de equipamentos informáticos: clientes, vendedores, vendas, reservas e relatórios.</p>
+                        <div class="project-features">
+                            <span><i class="fas fa-check-circle"></i> Perfis de acesso (Admin / Gestor / Vendedor)</span>
+                            <span><i class="fas fa-check-circle"></i> Vendas, reservas e relatórios</span>
+                        </div>
+                        <div class="project-tags">
+                            <span>Java</span><span>Swing</span><span>POO</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn-outline btn-sm view-project-btn">Ver Projeto</button>
+                            <a href="https://github.com/Nelson-Wilson/Gest%C3%A3o-Equipamentos-inform%C3%A1ticos" target="_blank" class="btn-primary btn-sm">Ver Código</a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="project-card" data-aos="fade-up" data-aos-delay="80">
-                    <div class="project-top">
-                        <div class="project-icon"><i class="fas fa-cut"></i></div>
-                        <a href="https://github.com/Nelson-Wilson" target="_blank" class="project-gh" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="80" data-category="web">
+                    <div class="project-thumb"
+                        data-title="Barbearia — Site Web"
+                        data-category-label="Web"
+                        data-desc="Website para barbearia com apresentação de serviços, agendamento online e integração com base de dados. Existe também uma versão desktop em Java do mesmo sistema."
+                        data-icon="fas fa-cut"
+                        data-tags="HTML,CSS,JavaScript,PHP,MySQL"
+                        data-features="Apresentação de serviços e preços,Agendamento online,Integração com base de dados (PHP + MySQL),Versão Desktop em Java disponível"
+                        data-link="https://github.com/Nelson-Wilson">
+                        <span class="project-category-tag">Web</span>
+                        <i class="fas fa-cut"></i>
+                        <div class="thumb-overlay"><span><i class="fas fa-eye"></i> Ver Projeto</span></div>
                     </div>
-                    <h3>BarberSystem</h3>
-                    <p>Sistema completo para gestão de barbearias com controlo de clientes, serviços, pagamentos e relatórios.</p>
-                    <div class="project-tags">
-                        <span>Java</span><span>MySQL</span>
-                    </div>
-                </div>
-
-                <div class="project-card" data-aos="fade-up" data-aos-delay="160">
-                    <div class="project-top">
-                        <div class="project-icon"><i class="fas fa-users-cog"></i></div>
-                        <a href="https://github.com/Nelson-Wilson" target="_blank" class="project-gh" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                    </div>
-                    <h3>Gestão de Trabalhadores</h3>
-                    <p>Aplicação para controlo e gestão de colaboradores com persistência de dados e relatórios de equipa.</p>
-                    <div class="project-tags">
-                        <span>Java</span><span>Arquivos</span>
-                    </div>
-                </div>
-
-                <div class="project-card" data-aos="fade-up" data-aos-delay="240">
-                    <div class="project-top">
-                        <div class="project-icon"><i class="fas fa-comments"></i></div>
-                        <a href="https://github.com/Nelson-Wilson" target="_blank" class="project-gh" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                    </div>
-                    <h3>Chatbot Web</h3>
-                    <p>Plataforma web com autenticação de utilizadores, frontend moderno e backend em Node.js.</p>
-                    <div class="project-tags">
-                        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span>
+                    <div class="project-body">
+                        <div class="project-top">
+                            <a href="https://github.com/Nelson-Wilson" target="_blank" class="project-gh" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                        <h3>Barbearia — Site Web</h3>
+                        <p>Website para barbearia com serviços, agendamento online e integração com base de dados. Também existe uma versão Desktop em Java.</p>
+                        <div class="project-features">
+                            <span><i class="fas fa-check-circle"></i> Agendamento online</span>
+                            <span><i class="fas fa-check-circle"></i> Versão Desktop em Java disponível</span>
+                        </div>
+                        <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn-outline btn-sm view-project-btn">Ver Projeto</button>
+                            <a href="https://github.com/Nelson-Wilson" target="_blank" class="btn-primary btn-sm">Ver Código</a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="project-card" data-aos="fade-up" data-aos-delay="320">
-                    <div class="project-top">
-                        <div class="project-icon"><i class="fas fa-birthday-cake"></i></div>
-                        <a href="https://github.com/Nelson-Wilson" target="_blank" class="project-gh" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="160" data-category="academico">
+                    <div class="project-thumb"
+                        data-title="JMSoftHouse"
+                        data-category-label="Académico"
+                        data-desc="Trabalho académico: sistema desktop de gestão de vendas com dashboard, gráficos, relatórios e controlo de utilizadores."
+                        data-icon="fas fa-chart-line"
+                        data-tags="Java,Swing,POO"
+                        data-features="Dashboard com gráficos de vendas,Geração de relatórios,Login e gestão de utilizadores,Persistência de dados em ficheiro"
+                        data-link="https://github.com/Nelson-Wilson/JMSoftHouse-trabalho-academico">
+                        <span class="project-category-tag">Académico</span>
+                        <i class="fas fa-chart-line"></i>
+                        <div class="thumb-overlay"><span><i class="fas fa-eye"></i> Ver Projeto</span></div>
                     </div>
-                    <h3>Website Ubisse Bolos</h3>
-                    <p>Website empresarial para confeitaria com catálogo de produtos, sistema de encomendas e painel administrativo.</p>
-                    <div class="project-tags">
-                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    <div class="project-body">
+                        <div class="project-top">
+                            <a href="https://github.com/Nelson-Wilson/JMSoftHouse-trabalho-academico" target="_blank" class="project-gh" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                        <h3>JMSoftHouse</h3>
+                        <p>Trabalho académico: sistema desktop de gestão de vendas com dashboard, gráficos, relatórios e controlo de utilizadores.</p>
+                        <div class="project-features">
+                            <span><i class="fas fa-check-circle"></i> Dashboard com gráficos de vendas</span>
+                            <span><i class="fas fa-check-circle"></i> Geração de relatórios</span>
+                        </div>
+                        <div class="project-tags">
+                            <span>Java</span><span>Swing</span><span>POO</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn-outline btn-sm view-project-btn">Ver Projeto</button>
+                            <a href="https://github.com/Nelson-Wilson/JMSoftHouse-trabalho-academico" target="_blank" class="btn-primary btn-sm">Ver Código</a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="project-card" data-aos="fade-up" data-aos-delay="400">
-                    <div class="project-top">
-                        <div class="project-icon"><i class="fas fa-utensils"></i></div>
-                        <a href="https://github.com/Nelson-Wilson" target="_blank" class="project-gh" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="240" data-category="web">
+                    <div class="project-thumb"
+                        data-title="NW-Bot — Chatbot Web"
+                        data-category-label="Web"
+                        data-desc="Chatbot web com autenticação de utilizadores, sessões seguras, histórico de conversas persistido e integração com IA (Claude API), com modo fallback sem chave de API."
+                        data-icon="fas fa-comments"
+                        data-tags="Node.js,Express,JavaScript,Claude API"
+                        data-features="Registo e login com senha encriptada,Histórico de conversas persistido,Integração com IA (Claude API),Modo fallback sem chave de API"
+                        data-link="https://github.com/Nelson-Wilson/chatbot-NW">
+                        <span class="project-category-tag">Web</span>
+                        <i class="fas fa-comments"></i>
+                        <div class="thumb-overlay"><span><i class="fas fa-eye"></i> Ver Projeto</span></div>
                     </div>
-                    <h3>Plano de Negócio — Restaurante</h3>
-                    <p>Projecto académico completo com análise financeira, planeamento estratégico e projecções de mercado.</p>
-                    <div class="project-tags">
-                        <span>Análise</span><span>Finanças</span><span>Estratégia</span>
+                    <div class="project-body">
+                        <div class="project-top">
+                            <a href="https://github.com/Nelson-Wilson/chatbot-NW" target="_blank" class="project-gh" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                        <h3>NW-Bot — Chatbot Web</h3>
+                        <p>Chatbot web com autenticação, sessões seguras, histórico de conversas e integração com IA (Claude API), com modo fallback.</p>
+                        <div class="project-features">
+                            <span><i class="fas fa-check-circle"></i> Autenticação com senha encriptada</span>
+                            <span><i class="fas fa-check-circle"></i> Integração com IA (Claude API)</span>
+                        </div>
+                        <div class="project-tags">
+                            <span>Node.js</span><span>Express</span><span>JavaScript</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn-outline btn-sm view-project-btn">Ver Projeto</button>
+                            <a href="https://github.com/Nelson-Wilson/chatbot-NW" target="_blank" class="btn-primary btn-sm">Ver Código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="320" data-category="comercial">
+                    <div class="project-thumb"
+                        data-title="Ubisse Bolos"
+                        data-category-label="Comercial"
+                        data-desc="Plataforma web comercial para confeitaria, construída em arquitectura MVC com painel administrativo, testes automatizados e ambiente Dockerizado."
+                        data-icon="fas fa-birthday-cake"
+                        data-tags="PHP,MySQL,Docker,MVC"
+                        data-features="Arquitectura MVC (controllers, models, views),Painel administrativo,Testes automatizados (PHPUnit),Ambiente Dockerizado"
+                        data-link="https://github.com/Nelson-Wilson/SG-Confeitaria-ubisse-bolos">
+                        <span class="project-category-tag">Comercial</span>
+                        <i class="fas fa-birthday-cake"></i>
+                        <div class="thumb-overlay"><span><i class="fas fa-eye"></i> Ver Projeto</span></div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-top">
+                            <a href="https://github.com/Nelson-Wilson/SG-Confeitaria-ubisse-bolos" target="_blank" class="project-gh" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                        <h3>Ubisse Bolos</h3>
+                        <p>Plataforma web comercial para confeitaria, com arquitectura MVC, painel administrativo, testes automatizados e ambiente Dockerizado.</p>
+                        <div class="project-features">
+                            <span><i class="fas fa-check-circle"></i> Painel administrativo</span>
+                            <span><i class="fas fa-check-circle"></i> Testes automatizados + Docker</span>
+                        </div>
+                        <div class="project-tags">
+                            <span>PHP</span><span>MySQL</span><span>Docker</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn-outline btn-sm view-project-btn">Ver Projeto</button>
+                            <a href="https://github.com/Nelson-Wilson/SG-Confeitaria-ubisse-bolos" target="_blank" class="btn-primary btn-sm">Ver Código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card project-card--soon" data-aos="fade-up" data-aos-delay="400" data-category="desktop">
+                    <div class="project-thumb project-thumb--soon"
+                        data-title="Gestão Financeira Pessoal"
+                        data-category-label="Desktop · Em breve"
+                        data-desc="Sistema desktop para gestão de despesas pessoais: registo de receitas e despesas, categorias, orçamentos e relatórios financeiros. Actualmente em desenvolvimento."
+                        data-icon="fas fa-wallet"
+                        data-tags="Java,Swing"
+                        data-features="Registo de receitas e despesas,Categorização de gastos,Definição de orçamentos mensais,Relatórios e gráficos financeiros"
+                        data-link="">
+                        <span class="project-category-tag">Em breve</span>
+                        <i class="fas fa-wallet"></i>
+                        <div class="thumb-overlay"><span><i class="fas fa-eye"></i> Ver Detalhes</span></div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-top">
+                            <span class="project-soon-badge"><i class="fas fa-hourglass-half"></i> Em desenvolvimento</span>
+                        </div>
+                        <h3>Gestão Financeira Pessoal</h3>
+                        <p>Sistema desktop para gestão de despesas pessoais: receitas, despesas, categorias, orçamentos e relatórios.</p>
+                        <div class="project-features">
+                            <span><i class="fas fa-check-circle"></i> Registo de receitas e despesas</span>
+                            <span><i class="fas fa-check-circle"></i> Relatórios e gráficos financeiros</span>
+                        </div>
+                        <div class="project-tags">
+                            <span>Java</span><span>Swing</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn-outline btn-sm view-project-btn">Ver Detalhes</button>
+                            <a href="https://wa.me/258866473065?text=Olá%20Nelson,%20gostaria%20de%20saber%20mais%20sobre%20o%20sistema%20de%20Gestão%20Financeira%20Pessoal" target="_blank" class="btn-primary btn-sm">Saber Mais</a>
+                        </div>
                     </div>
                 </div>
 
             </div>
+            <p class="filter-empty" id="filterEmpty" style="display:none; text-align:center; color:var(--text-muted); margin-top:24px;">Nenhum projeto encontrado nesta categoria.</p>
         </div>
     </section>
+
+    <!-- MODAL DE PROJETO -->
+    <div class="project-modal" id="projectModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose" aria-label="Fechar"><i class="fas fa-times"></i></button>
+            <div class="modal-thumb" id="modalThumb"><i id="modalIcon" class="fas fa-chart-pie"></i></div>
+            <div class="modal-body">
+                <span class="modal-category" id="modalCategory">Desktop</span>
+                <h3 id="modalTitle">Título do Projeto</h3>
+                <p class="modal-desc" id="modalDesc">Descrição do projeto.</p>
+                <div class="project-features" id="modalFeatures"></div>
+                <div class="project-tags" id="modalTags"></div>
+                <div class="modal-actions">
+                    <a href="#contact" class="btn-primary" id="modalContactBtn">Solicitar Orçamento</a>
+                    <a href="https://github.com/Nelson-Wilson" target="_blank" class="btn-outline" id="modalCodeBtn">Ver Código</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- DIFERENCIAIS -->
     <section id="why" class="section">
@@ -391,11 +624,11 @@
                         </div>
                         <i class="fas fa-arrow-right contact-arrow"></i>
                     </a>
-                    <a href="mailto:nelsondzimba07@gmail.com" class="contact-card contact-card--email">
+                    <a href="mailto:nelsondzimba08@gmail.com" class="contact-card contact-card--email">
                         <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
                         <div class="contact-card-info">
                             <span class="contact-label">Email</span>
-                            <span class="contact-value">nelsondzimba07@gmail.com</span>
+                            <span class="contact-value">nelsondzimba08@gmail.com</span>
                         </div>
                         <i class="fas fa-arrow-right contact-arrow"></i>
                     </a>
@@ -407,8 +640,16 @@
                         </div>
                         <i class="fas fa-arrow-right contact-arrow"></i>
                     </a>
+                    <a href="https://www.linkedin.com/in/nelson-wilson" target="_blank" class="contact-card contact-card--linkedin">
+                        <div class="contact-card-icon"><i class="fab fa-linkedin-in"></i></div>
+                        <div class="contact-card-info">
+                            <span class="contact-label">LinkedIn</span>
+                            <span class="contact-value">linkedin.com/in/nelson-wilson</span>
+                        </div>
+                        <i class="fas fa-arrow-right contact-arrow"></i>
+                    </a>
                     <div class="contact-cta" data-aos="fade-up">
-                        <a href="https://wa.me/258866473065?text=Olá%20Nelson,%20gostaria%20de%20solicitar%20um%20orçamento!" target="_blank" class="btn-gold btn-large">
+                        <a href="https://wa.me/258866473065?text=Olá%20Nelson,%20gostaria%20de%20solicitar%20um%20orçamento!" target="_blank" class="btn-primary btn-large">
                             <i class="fab fa-whatsapp"></i> Solicitar Orçamento
                         </a>
                     </div>
@@ -416,12 +657,13 @@
                 <div class="contact-form-wrap" data-aos="fade-left">
                     <h3>Envie uma mensagem</h3>
                     <div id="contactForm">
-                        <input type="text" id="formName" placeholder="O seu nome" autocomplete="name">
+                        <input type="text" id="formName" placeholder="O seu nome *" autocomplete="name">
                         <input type="email" id="formEmail" placeholder="O seu email" autocomplete="email">
+                        <input type="tel" id="formPhone" placeholder="O seu telefone" autocomplete="tel">
                         <input type="text" id="formSubject" placeholder="Assunto">
-                        <textarea id="formMsg" placeholder="Descreva o seu projecto..." rows="5"></textarea>
-                        <button class="btn-gold btn-full" id="sendBtn" onclick="sendWhatsApp()">
-                            Enviar via WhatsApp <i class="fab fa-whatsapp"></i>
+                        <textarea id="formMsg" placeholder="Descreva o seu projecto... *" rows="5"></textarea>
+                        <button class="btn-primary btn-full" id="sendBtn" onclick="sendEmail()">
+                            Enviar Mensagem <i class="fas fa-paper-plane"></i>
                         </button>
                     </div>
                 </div>
@@ -433,7 +675,7 @@
     <footer class="footer">
         <div class="container footer-container">
             <div class="footer-brand">
-                <span class="logo">NW<span class="logo-dot">.</span></span>
+                <span class="logo logo--img"><img src="assets/logo.png" alt="Nelson Wilson"></span>
                 <p>Desenvolvedor de Sistemas & Websites<br>Maputo, Moçambique</p>
             </div>
             <div class="footer-links">
@@ -445,8 +687,9 @@
             </div>
             <div class="footer-socials">
                 <a href="https://github.com/Nelson-Wilson" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/nelson-wilson" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                 <a href="https://wa.me/258866473065" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                <a href="mailto:nelsondzimba07@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                <a href="mailto:nelsondzimba08@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
         <div class="footer-bottom">
@@ -454,6 +697,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>
